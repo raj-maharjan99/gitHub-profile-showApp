@@ -26,10 +26,12 @@
   font-weight: 500;
 }
 .logo {
-  color: rgb(166, 163, 177);
+  border-radius: 20px;
+  color: rgb(230, 227, 239);
   padding-left: 10px;
   padding-right: 10px;
-  box-shadow: 5px 3px 2px 5px hsla(0, 17%, 95%, 0.9);
+  font-weight: 400;
+  /* box-shadow: 5px 3px 2px 5px hsla(0, 17%, 95%, 0.9); */
 }
 .font_family {
   font-family: Lilita One;
@@ -48,5 +50,10 @@
   padding-right: 10px;
   color: rgb(206, 191, 191);
   padding-left: 10px;
-  box-shadow: 5px 4px 0px 5px rgba(235, 229, 229, 0.4);
+  /* box-shadow: 5px 4px 0px 5px rgba(235, 229, 229, 0.4); */
+}
+
+@media screen and (max-width: 300px) {
+  .search-btn {
+  }
 }
